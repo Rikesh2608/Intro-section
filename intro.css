@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Hanken Grotesk';
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+}
+.head-left{
+    text-wrap: nowrap;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.head-left h1{
+    color: hsl(0, 0%, 8%);
+    margin: 0 20px 0 10px;
+}
+.options-container{
+    color: hsl(0, 0%, 41%);
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+.options-container div:hover{
+    color: hsl(0, 0%, 0%);
+}
+.options-container div{
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.company-options,.features-container{
+    position: relative;
+}
+.company-options,.features-options{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+}
+.features-options{
+    position: absolute;
+    bottom: -160px;
+    display: none;
+    left: -50px;
+}
+.features-options div,.company-options div{
+    margin: 0;
+    margin-bottom: 8px;
+    min-width: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-opt img{
+    height: 14px;
+    margin-right: 4px;
+}
+.company-options{
+    position: absolute;
+    bottom: -110px;
+    display: none;
+}
+.head-right{
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 41%);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.login{
+    cursor: pointer;
+}
+.register{
+    cursor: pointer;
+    font-size: 0.8em;
+    background-color: white;
+    color: hsl(0, 0%, 41%);
+    border: 1px solid hsl(0, 0%, 8%);
+    margin: 0 20px;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
+.desc{
+    color: hsl(0, 0%, 41%);
+    max-width: 80%;
+    margin:50px 0;
+}
+.learn-more{
+    border: none;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    padding:15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.company{
+    margin-right:50px;
+    cursor: pointer;
+}
+.company img{
+    width: 65px;
+}
+.left-section h1{
+    color: hsl(0, 0%, 8%);
+    line-height: 1em;
+    font-size: 4em;
+    max-width: 380px;
+    margin-bottom: 0;
+}
+.right-section{
+    display: flex;
+    height: 500px;
+}
+
+.company-img-container{
+    display: flex;
+    margin:70px 50px 0 0;
+}
